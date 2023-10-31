@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "3_Queue_Using_Array.C": "cpp",
+        "11_Insert_Element_In_Sorted_Linked_List.C": "cpp",
+        "16_Delete_Min_Value_Linked_List.C": "cpp",
+        "23_Merge_Sort.C": "cpp",
+        "24_Insertion_Sort.C": "cpp",
+        "25_Bubble_Sort.C": "cpp",
+        "26_Selection_Sort.C": "cpp",
+        "27_Radix_Sort.C": "cpp",
+        "28_Quick_Sort.C": "cpp",
+        "29_Linear_Binary_Search.C": "cpp",
+        "31_Binary_Search_Tree.C": "cpp"
+    }
+}
