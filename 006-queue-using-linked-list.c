@@ -102,3 +102,26 @@ void display()
         }  
     }  
 }  
+
+// INSERTION
+// Step 1: Allocate the space for the new node PTR
+// Step 2: SET PTR -> DATA = VAL
+// Step 3: IF FRONT = NULL
+// SET FRONT = REAR = PTR
+// SET FRONT -> NEXT = REAR -> NEXT = NULL
+// ELSE
+// SET REAR -> NEXT = PTR
+// SET REAR = PTR
+// SET REAR -> NEXT = NULL
+// [END OF IF]
+// Step 4: END
+
+// DELETION
+// Step 1: IF FRONT = NULL
+// Write " Underflow "
+// Go to Step 5
+// [END OF IF]
+// Step 2: SET PTR = FRONT
+// Step 3: SET FRONT = FRONT -> NEXT
+// Step 4: FREE PTR
+// Step 5: END

@@ -75,3 +75,23 @@ int main() {
 	while (choice!=4);
     return 0;
 }
+
+// begin   
+//     if top = n then stack full   
+//     top = top + 1  
+//     stack (top) : = item;  
+// end   
+// void push (int val,int n) //n is size of the stack   
+// {  
+//     if (top == n )   
+//     printf("\n Overflow");   
+//     else   
+//     {  
+//     top = top +1;   
+//     stack[top] = val;   
+//     }   
+// }   begin   
+//     if top = 0 then stack empty;   
+//     item := stack(top);  
+//     top = top - 1;  
+//     end;  

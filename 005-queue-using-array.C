@@ -101,3 +101,24 @@ void display()
     }  
 }  
 
+// INSERTION
+// Step 1: IF REAR = MAX - 1
+// Write OVERFLOW
+// Go to step
+// [END OF IF]
+// Step 2: IF FRONT = -1 and REAR = -1
+// SET FRONT = REAR = 0
+// ELSE
+// SET REAR = REAR + 1
+// [END OF IF]
+// Step 3: Set QUEUE[REAR] = NUM
+// Step 4: EXIT
+
+// DELETION
+// Step 1: IF FRONT = -1 or FRONT > REAR
+// Write UNDERFLOW
+// ELSE
+// SET VAL = QUEUE[FRONT]
+// SET FRONT = FRONT + 1
+// [END OF IF]
+// Step 2: EXIT
